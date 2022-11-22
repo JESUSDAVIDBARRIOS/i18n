@@ -19,7 +19,7 @@ const Job = (props) => {
           weekday='long'
         />
       </td>
-      <td><FormattedNumber value={props.offer.views}  /></td>
+      <td>{props.offer.views.toLocaleString()}</td>
     </tr>
   );
 };

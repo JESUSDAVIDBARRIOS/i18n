@@ -40,7 +40,7 @@ const JobsList = () => {
   return (
     <div>
       <table className="table">
-        <thead className={(language==='es')?'table-dark':'table-light'}>
+        <thead className={(language==='en')?'table-dark':'table-light'}>
           <tr>
             <th scope="col">#</th>
             <th scope="col">
